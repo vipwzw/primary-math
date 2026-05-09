@@ -18,4 +18,20 @@ PDF 文件本身不入库（约 294 MB，已在 `.gitignore` 中排除）。
 bash scripts/download_pep_math.sh
 ```
 
-依赖：`bash`, `curl`, `jq`, `python3`, `awk`。
+### 2. 小学数学知识图谱（RCAE 数据集 + 人教版子集）
+
+- 目录：`知识图谱-RCAE/`
+- 提取脚本：`scripts/extract_pep_math_graph.py`
+- 数据来源：[digitalboy/RCAE_graph_data](https://github.com/digitalboy/RCAE_graph_data)（CC BY-NC 4.0）
+- 详情见 [`知识图谱-RCAE/README.local.md`](./知识图谱-RCAE/README.local.md)
+
+包含原始全量图（2264 节点 / 10227 边）+ **人教版子集**（1632 节点 / 7726 边）。
+重新生成人教版子集：
+
+```bash
+python3 scripts/extract_pep_math_graph.py
+```
+
+### 依赖
+
+`bash`, `curl`, `jq`, `python3`, `awk`

@@ -1,3 +1,6 @@
 # Downloaded PDF textbooks (≈ 294 MB) - kept in working directory only,
 # can be regenerated via scripts/download_pep_math.sh
 小学数学-人教版/*.pdf
+
+# Biology knowledge graph from RCAE dataset (14 MB) - not needed for this project
+知识图谱-RCAE/生物的节点和边（初中，高中和竞赛）.json
