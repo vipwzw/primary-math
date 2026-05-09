@@ -52,15 +52,27 @@ NotebookLM 免费版允许最多 50 个 source、单文件 ≤ 200 MB，本套 1
 
 ---
 
+## 获取方式
+
+PDF 文件已经直接入库，最快的方式：
+
+```bash
+git clone https://github.com/vipwzw/primary-math.git
+cd primary-math
+ls 小学数学-人教版/    # 12 本 PDF 都在这
+```
+
+或者：直接在 GitHub 网页打开 `小学数学-人教版/` 目录，点任一 PDF 的 "Download raw file" 单独下载。
+
 ## 重新下载 / 校验
 
-如果文件丢失或想验证完整性，运行仓库根目录的脚本：
+如果想验证完整性或上游更新了，运行仓库根目录的脚本：
 
 ```bash
 bash scripts/download_pep_math.sh
 ```
 
-脚本会跳过已下载且大小一致的文件，所以可放心多次运行。
+脚本会跳过已下载且大小一致的文件，可放心多次运行。
 
 ---
 

@@ -6,13 +6,12 @@
 
 ### 1. 人教版小学数学电子课本（1–6 年级，全 12 册）
 
-- 目录：`小学数学-人教版/`
-- 下载脚本：`scripts/download_pep_math.sh`
+- 目录：`小学数学-人教版/`（**PDF 已入库**，约 294 MB，最大单文件 48 MB）
+- 下载脚本：`scripts/download_pep_math.sh`（用于重新生成或校验）
 - 数据来源：[TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook)
 - 详情见 [`小学数学-人教版/README.md`](./小学数学-人教版/README.md)
 
-PDF 文件本身不入库（约 294 MB，已在 `.gitignore` 中排除）。
-首次使用请运行：
+直接 `git clone` 即可拿到所有 PDF。如需重新下载：
 
 ```bash
 bash scripts/download_pep_math.sh
