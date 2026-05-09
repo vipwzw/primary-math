@@ -1,0 +1,3 @@
+# Downloaded PDF textbooks (≈ 294 MB) - kept in working directory only,
+# can be regenerated via scripts/download_pep_math.sh
+小学数学-人教版/*.pdf
