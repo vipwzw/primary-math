@@ -1,0 +1,8 @@
+# Biology knowledge graph from RCAE dataset (14 MB) - not needed for this project
+知识图谱-RCAE/生物的节点和边（初中，高中和竞赛）.json
+
+# Aggregated upload bundle (duplicates of files in 小学数学-人教版/) - regenerate as needed
+notebooklm-上传/
+
+# Downloaded third-party tool (cloned for personal use, not part of this project)
+quark-tool/
